@@ -1,0 +1,111 @@
+/* font */
+@import url('https://fonnts.googlepis.com/css2?family=Popins:wght@500display=swap');
+/* common-styles */
+ body{
+    font-family:'Popins',sans-serif;
+ }
+ .container{
+     padding: 35px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+    
+ }
+
+/*---- header part 
+-----*/
+.banner{
+    display: flex;
+    background-color: #2D25A0;
+}
+.banner-tittle{
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+}
+.banner img {
+width: 556px;
+height: 438px;
+margin-top: 25px;
+}
+.banner-image:hover{
+    transform: scale(1.2) rotate(-20deg);
+    transition: transform 2s ease-in;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #E02C6D;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner:hover{
+    transform: scale(1.4) rotate(20deg);
+    transition: transform 2s ease-in;
+}
+.fa-arrow-right{
+    margin-left: 2px;
+}
+/*--- header-part-end --- 
+*/
+/* ---players-album start---
+ */
+ 
+     
+ 
+ .players-album{
+     display: grid;
+     grid-template-columns: repeat( 3 ,1fr);
+     grid-row-gap: 30px;
+     margin-left: 20px;
+ }
+
+ .photo img{
+     
+    width: 300px;
+    height: 426px;
+    padding-left: 30px;
+ }
+ 
+ .players-details {
+    width: 300px;
+    height: 300px;
+    color: black;
+    margin-left: 31px;
+   
+
+ }
+
+ /* ----players-album finish
+ ---- */
+
+
+ /* footer */
+ .football-pic{
+     text-align: center;
+ }
+ .icon{
+     text-align: center;
+     font-size: 30px;
+     color: gray;
+ }
+ .fab{
+     margin-left: 12px;
+ }
+ .last-part p{
+     text-align: center;
+     color: gray;
+ }
+/* media quaries */
+
+@media only screen and (min-width:688px) {
+    .banner{
+        height:;
+         width: 100%;
+        
+    }
+    
+    .last-part{
+        width: 100%;
+    }
+}
